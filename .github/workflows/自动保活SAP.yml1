@@ -5,7 +5,7 @@ on:
     - cron: '58 23 * * *'     # actions时间不准，不准确再酌情调整
   workflow_dispatch:  # 允许手动触发
 
-jobs:
+jobs
   restart-sg-apps:
     runs-on: ubuntu-latest
     name: Restart SG Apps
